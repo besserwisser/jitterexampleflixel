@@ -17,6 +17,7 @@ class PlayState extends FlxState
 		this.testSprite = new FlxSprite(null, null, "assets/images/pig.png");
 		this.testSprite.x += this.testSprite.width / 2;
 		this.testSprite.y += this.testSprite.height / 2;
+		this.testSprite.pixelPerfectRender = false;
 		add(this.testSprite);
 	}
 
